@@ -1,7 +1,26 @@
 aid: family-first
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/family-first.png
 name: Family First
-description: Family First is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Family First is an employee caregiving benefits provider that pairs certified
+  Care Experts with a Care Hub mobile app to support working caregivers. The platform
+  helps employers, health plans, and small businesses deliver caregiving advocacy,
+  backup and subsidized care, and expert guidance across aging-parent care, mental
+  health, chronic illness, caregiver burnout, fertility, childcare, veterans support,
+  end-of-life planning, and financial and legal planning. The company operates under
+  SOC 2 Type II, HITRUST i1, HIPAA, CCPA, and GDPR frameworks and is Techstars-backed.
+  Family First does not publish a public developer API, SDKs, or developer portal;
+  this profile captures its public identity, legal, and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/family-first/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Caregiving
+- Employee Benefits
+- Health Plans
+- Human Resources
+- Care Management
+- Wellbeing
+- HRTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/family-first-domain-security.yml
 - type: Website
-  url: https://family-first.com/
+  url: https://www.family-first.com/
+- type: Blog
+  url: https://www.family-first.com/news
+- type: Support
+  url: https://www.family-first.com/contact
+- type: PrivacyPolicy
+  url: https://www.family-first.com/privacy-policy
+- type: TermsOfService
+  url: https://www.family-first.com/terms-for-small-business
+- type: Compliance
+  url: https://www.family-first.com/data-security
+- type: TrustCenter
+  url: security/family-first-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/family-first-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.family-first.com/data-security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

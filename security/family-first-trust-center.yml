@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.family-first.com/data-security
+url: https://www.family-first.com/data-security
+certifications:
+- SOC 2 Type II
+- HITRUST i1
+- HIPAA
+- CCPA
+- GDPR
+evidence:
+- source: https://www.family-first.com/data-security
+  keywords:
+  - soc 2 type ii
+  - hitrust i1
+  - hipaa
+  - security & data protection
